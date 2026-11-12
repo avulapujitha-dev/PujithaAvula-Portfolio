@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <title>Avula Pujitha | Software Developer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -176,8 +177,12 @@
         <h2>Featured <span>Projects</span></h2>
     </div>
 
+    <section id="projects">
+    <h2>My Projects</h2>
+
     <div class="projects-grid">
 
+        <!-- PROJECT 01 -->
         <article class="project-card">
             <span class="project-number">PROJECT 01</span>
             <h3>Salesforce Leave Management System</h3>
@@ -187,67 +192,67 @@
                 using Salesforce automation.
             </p>
             <div class="skill-tags">
-                <span>Salesforce</span><span>Apex</span>
-                <span>Flows</span><span>SOQL</span>
+                <span>Salesforce</span>
+                <span>Apex</span>
+                <span>Flows</span>
+                <span>SOQL</span>
             </div>
             <a href="https://github.com/avulapujitha-dev/PujithaAvula-Portfolio" target="_blank">Source Code ↗</a>
         </article>
 
+        <!-- PROJECT 02 -->
         <article class="project-card">
-    <span class="project-number">PROJECT 02</span>
-    <h3>Student Management System</h3>
-    <p>
-        A Java-based application designed to manage student
-        information and perform basic student record operations.
-    </p>
-    <div class="skill-tags">
-        <span>Java</span><span>OOP</span>
-        <span>MySQL</span><span>Spring Boot</span>
-    </div>
-    <a href="https://github.com/avulapujitha-dev/student-management-system" target="_blank">Source Code ↗</a>
-    <a href="https://student-management-system-production-b657e01e.up.railway.app" target="_blank">Live Demo ↗</a>
-</article><lightning-dynamic-icon 
-  type="ellie" 
-  alternative-text="Text that describes what is happening not what the icon looks like."
-></lightning-dynamic-icon>
+            <span class="project-number">PROJECT 02</span>
+            <h3>Student Management System</h3>
+            <p>
+                A Java-based application designed to manage student
+                information and perform basic student record operations.
+            </p>
+            <div class="skill-tags">
+                <span>Java</span>
+                <span>OOP</span>
+                <span>MySQL</span>
+                <span>Spring Boot</span>
+            </div>
+            <a href="https://github.com/avulapujitha-dev/student-management-system" target="_blank">Source Code ↗</a>
+            <a href="https://student-management-system-production-b657e01e.up.railway.app" target="_blank">Live Demo ↗</a>
+        </article>
 
+        <!-- PROJECT 03 -->
         <article class="project-card">
-    <span class="project-number">PROJECT 03</span>
-    <h3>Employee Management System</h3>
-    <p>
-        A Python Streamlit application to add, view, search,
-        update and delete employee records easily.
-    </p>
-    <div class="skill-tags">
-        <span>Python</span>
-        <span>Streamlit</span>
-        <span>CRUD Operations</span>
-    </div>
-
-    <a href="https://employee-management-system-zs5gfmocg9orbc5vjnqnew.streamlit.app/"
-       target="_blank">Live Demo ↗</a>
-
-    <a href="https://github.com/avulapujitha-dev/Employee-Management-System"
-       target="_blank">Source Code ↗</a>
-</article>
-
-        <article class="project-card">
-            <span class="project-number">PROJECT 04</span>
+            <span class="project-number">PROJECT 03</span>
             <h3>Blockchain-Based Cloud Security</h3>
             <p>
                 An academic project exploring Hyperledger blockchain
                 and lightweight symmetric-key encryption for cloud security.
             </p>
             <div class="skill-tags">
-                <span>Blockchain</span><span>Hyperledger</span>
+                <span>Blockchain</span>
+                <span>Hyperledger</span>
                 <span>Cloud Security</span>
             </div>
             <a href="https://github.com/avulapujitha-dev/PujithaAvula-Portfolio" target="_blank">Source Code ↗</a>
         </article>
 
+        <!-- PROJECT 04 -->
+        <article class="project-card">
+            <span class="project-number">PROJECT 04</span>
+            <h3>Employee Management System</h3>
+            <p>
+                A Python Streamlit application to add, view, search,
+                update and delete employee records easily.
+            </p>
+            <div class="skill-tags">
+                <span>Python</span>
+                <span>Streamlit</span>
+                <span>CRUD Operations</span>
+            </div>
+            <a href="https://employee-management-system-zs5gfmocg9orbc5vjnqnew.streamlit.app/" target="_blank">Live Demo ↗</a>
+            <a href="https://github.com/avulapujitha-dev/Employee-Management-System" target="_blank">Source Code ↗</a>
+        </article>
+
     </div>
 </section>
-
 <!-- EXPERIENCE -->
 <section class="section" id="experience">
     <div class="section-heading">
@@ -350,7 +355,29 @@
 </div>
 
         <p class="location">📍 Nellore, Andhra Pradesh, India</p>
+        <a href="message.html" class="message-btn">
+    Send a Message ↗
+</a>
     </div>
+    <div class="message-form">
+    <h3>Send a Message 💌</h3>
+
+    <form action="https://formsubmit.co/pujithaavula33@gmail.com" method="POST">
+
+        <input type="text" name="name" placeholder="Your Name" required>
+
+        <input type="email" name="email" placeholder="Your Email" required>
+
+        <textarea name="message" rows="5"
+        placeholder="Write your message..." required></textarea>
+
+        <input type="hidden" name="_subject"
+        value="New Portfolio Message">
+
+        <button type="submit">Send Message 🚀</button>
+
+    </form>
+</div>
 </section>
 
 </main>
